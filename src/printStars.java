@@ -5,5 +5,13 @@ public class printStars {
                 System.out.print( '*' );
             System.out.println();
         }
+        System.out.println();
+        int x, y;
+        for ( x = 1, y = 2, x++, y++;
+              x < 15 || y < 10;
+              x += 1, y += 1 )
+        {
+            System.out.print( '*' );
+        }
     }
 }
