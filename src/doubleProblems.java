@@ -10,5 +10,15 @@ public class doubleProblems {
                 break;
             }
         }
+
+        heaven:
+        while ( true ) {
+            hell:
+            while ( true )
+                break /* continue */ heaven;
+            // marke hell: wird nicht erreicht
+            // System.out.println( "hell" );
+        }
+        System.out.println( "heaven" );
     }
 }
